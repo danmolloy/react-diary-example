@@ -2382,7 +2382,7 @@ __metadata:
     next: "npm:14.2.3"
     postcss: "npm:^8"
     react: "npm:^18"
-    react-diary: "npm:^1.0.13"
+    react-diary: "npm:^1.0.15"
     react-dom: "npm:^18"
     react-icons: "npm:^5.2.1"
     tailwindcss: "npm:^3.4.1"
@@ -5721,15 +5721,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-diary@npm:^1.0.13":
-  version: 1.0.13
-  resolution: "react-diary@npm:1.0.13"
+"react-diary@npm:^1.0.15":
+  version: 1.0.15
+  resolution: "react-diary@npm:1.0.15"
   dependencies:
     "@types/luxon": "npm:^3"
     luxon: "npm:^3.4.4"
   peerDependencies:
     react: ^18.3.1
-  checksum: 10c0/34f6a00fc93a29653e6245f05fd0315e78d1ae7c8914a5dba83a0fefee5e00e6a69aa6277bb81733e5954b1564ccedd4598c034ddb41d42ff06a14bd1fe7a0e7
+  checksum: 10c0/a8adf126fe189215d80984f15e54bf06501253e59f1c24f330c9908b11fad9dc779ae8e91840bab336fae6359b8edcbd0e26dbbf958eeb7e8841188181489c44
   languageName: node
   linkType: hard
 

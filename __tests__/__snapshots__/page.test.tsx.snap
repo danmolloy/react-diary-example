@@ -6,16 +6,31 @@ exports[`Page matches snapshot 1`] = `
   data-testid="home-page"
 >
   <div
-    class="border-b shadow-sm border-black mt-0 w-full h-12 px-2 flex flex-row items-center"
+    class="border-b shadow-sm border-black mt-0 w-full h-12 px-2 flex flex-row items-center justify-between"
   >
     <h1
       class="font-semibold text-xl "
     >
       React Diary
     </h1>
+    <select
+      class="border rounded m-2 p-1"
+      data-testid="select-box"
+    >
+      <option
+        value="picker"
+      >
+        Date Picker
+      </option>
+      <option
+        value="month"
+      >
+        Month Calendar
+      </option>
+    </select>
   </div>
   <div
-    class="p-12 pt-24"
+    class="p-12 pt-24 flex flex-col justify-start items-center"
   >
     <table
       class="w-full table-fixed "
